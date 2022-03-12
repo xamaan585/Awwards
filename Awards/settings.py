@@ -45,9 +45,13 @@ INSTALLED_APPS = [
     'cloudinary',
     'tinymce',
     'rest_framework',
+    'rest_framework.authtoken',
     'bootstrap4',
     'phone_field',
-
+    'social_django',
+    'crispy_forms',
+    'emoji_picker',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
