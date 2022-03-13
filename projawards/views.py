@@ -6,6 +6,7 @@ from django.contrib.auth.models import User
 from .forms import  UpdateUserForm, UpdateUserProfileForm, UserRegisterForm,PostForm,RatingForm
 from .models import Post, Profile,Rating
 import random
+print(random.randint(0,1))
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from .serializers import PostSerializer,ProfileSerializer
